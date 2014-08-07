@@ -29,6 +29,6 @@ public class Divinity
     public void preInit(FMLPreInitializationEvent event)
     {
         ItemLoader.load();
-        proxy.initRenders();
+        RecipeHandler.load();
     }
 }

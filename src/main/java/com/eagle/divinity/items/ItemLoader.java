@@ -12,7 +12,6 @@ public class ItemLoader
     public static void load()
     {
         materials.setUnlocalizedName("divinityMaterials");
-        //basicPendant = new ItemBasicPendant();
         //
         GameRegistry.registerItem(materials, "Divinity_materials");
     }

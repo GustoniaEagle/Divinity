@@ -1,0 +1,16 @@
+[
+{
+  "modid": "divinity",
+  "name": "Divinity",
+  "description": "Adding a whole new meaning to 'late-game'",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["GustoniaEagle"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

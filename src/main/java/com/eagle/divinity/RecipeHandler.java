@@ -13,7 +13,7 @@ public class RecipeHandler
 {
     public static void load()
     {
-        GameRegistry.addRecipe(new ItemStack(ItemLoader.materials), "XYX", "YXY", "XYX", 'X', Blocks.diamond_block, 'Y', Blocks.obsidian);
+        GameRegistry.addRecipe(new ItemStack(ItemLoader.materials), "XYX", "YZY", "XYX", 'X', Items.iron_ingot, 'Y', Items.gold_ingot, 'Z', Items.diamond);
         GameRegistry.addRecipe(new ItemStack(ItemLoader.clock), " X ", "XYX", " X ", 'X', new ItemStack(ItemLoader.materials, 1, 0), 'Y', Items.clock);
         for (int i = 0; i < 23; i++)
         {

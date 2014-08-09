@@ -9,10 +9,13 @@ import net.minecraft.item.Item;
 public class ItemLoader
 {
     public static Item materials = new ItemMaterials();
+    public static Item clock = new ItemTimeClock();
     public static void load()
     {
         materials.setUnlocalizedName("divinityMaterials");
+        clock.setUnlocalizedName("timeClock");
         //
         GameRegistry.registerItem(materials, "Divinity_materials");
+        GameRegistry.registerItem(clock, "Divinity_clock");
     }
 }
